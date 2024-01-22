@@ -28,6 +28,8 @@
                 extend: {
                     colors: {
                         'primary-color': '#FF4240',
+                        'major-font': '#131318',
+                        'minor-font': 'rgba(19, 19, 24, 0.60)',
                     }
                 }
             }
@@ -54,7 +56,7 @@
                             <li class="lg:text-base text-sm lg:font-bold font-normal"><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="lg:text-4xl text-2xl lg:font-extrabold font-bold">Hockey<span class="text-primary-color">'</span>s</a>
+                    <a class="lg:text-4xl text-2xl text-major-font lg:font-extrabold font-bold">Hockey<span class="text-primary-color">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -71,8 +73,44 @@
                 </div>
             </div>
         </nav>
+        <section class="container mx-auto px-[0.5rem] mb-24">
+            <div>
+                <div class="">
+                    <div class="carousel w-full">
+                        <div id="slide1" class="carousel-item relative w-full lg:h-[550px] h-[200px]">
+                            <img src="Images/1.png" class="w-full" />
+                            <div class="absolute transform -translate-y-1/2 lg:bottom-4 lg:left-10 bottom-0 left-20 space-x-5">
+                                <a href="#slide2" class="btn btn-circle text-white bg-black">❮</a>
+                                <a href="#slide2" class="btn btn-circle text-white bg-black">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide2" class="carousel-item relative w-full lg:h-[550px] h-[200px]">
+                            <img src="Images/slide2.avif" class="w-full" />
+                            <div class="absolute  transform -translate-y-1/2 bottom-4 left-10 space-x-5">
+                                <a href="#slide1" class="btn btn-circle text-white bg-black">❮</a>
+                                <a href="#slide1" class="btn btn-circle text-white bg-black">❯</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- caru pin ab -->
+                <div>
+                    <!-- carucal pin banner -->
+                </div>
+            </div>
+        </section>
     </header>
-    <main></main>
+    <main>
+        <section class="container mx-auto px-[0.5rem]">
+            <div class="space-y-7">
+                <div class="divider"></div>
+                <h2 class="text-center lg:text-4xl text-xl font-extrabold text-major-font">Professional Hockeys Club</h2>
+                <p class="lg:w-2/4 text-center mx-auto text-minor-font">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                <div class="divider"></div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
