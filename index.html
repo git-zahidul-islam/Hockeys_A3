@@ -56,6 +56,7 @@
                         'minor-product': 'rgba(19, 19, 24, 0.50)',
                         'primary-box': 'rgba(188, 237, 109, 0.10)',
                         'secondary-box': 'rgba(98, 156, 243, 0.10)',
+                        'input-color': 'rgba(19, 19, 24, 0.03)',
                     }
                 }
             }
@@ -802,18 +803,65 @@
                         <p class="text-base font-extrabold">(+62) 123-321-543</p>
                     </div>
                     <div class="bg-primary-box lg:p-10 p-3 rounded-2xl space-y-2">
-                        <img class="mb-4" src="Images/Group 1171275317.png" alt="phone">
-                        <p class="text-sm font-normal text-minor-font">Phone Number :</p>
-                        <p class="text-base font-extrabold">(+62) 123-321-543</p>
+                        <img class="mb-4" src="Images/Group 1171275318.png" alt="massage">
+                        <p class="text-sm font-normal text-minor-font">Email :</p>
+                        <p class="text-base font-extrabold">hockeys@support.com</p>
                     </div>
                     <div class="bg-secondary-box lg:p-8 p-2 rounded-2xl space-y-2">
-                        <img class="mb-4" src="Images/Group 1171275317.png" alt="phone">
-                        <p class="text-sm font-normal text-minor-font">Phone Number :</p>
-                        <p class="text-base font-extrabold">(+62) 123-321-543</p>
+                        <img class="mb-4" src="Images/Group 1171275321.png" alt="location">
+                        <p class="text-sm font-normal text-minor-font">location :</p>
+                        <p class="text-base font-extrabold">152/1 Mohakhali Wireless Gate</p>
                     </div>
                 </div>
-                <div class="h-24 w-full bg-pink-600 lg:col-span-2">
-
+                <div class="lg:col-span-2">
+                    <form action="">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
+                            <div>
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="text-xl font-bold">Your Name</span>
+                                    </label>
+                                    <input type="text" placeholder="Enter your full name" class="p-6 rounded-xl bg-input-color text-major-font" required />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="text-xl font-bold text-major-font">Your Email</span>
+                                    </label>
+                                    <input type="email" placeholder="Enter your email" class="p-6 rounded-xl bg-input-color" required />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="text-xl font-bold text-major-font">Subject</span>
+                                    </label>
+                                    <input type="text" placeholder="Enter your subject" class="p-6 rounded-xl bg-input-color" required />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="text-xl font-bold text-major-font">Phone Number</span>
+                                    </label>
+                                    <input type="text" placeholder="Enter your phone Number" class="p-6 rounded-xl bg-input-color" required />
+                                </div>
+                            </div>
+                            <!-- massages -->
+                            <div class="lg:col-span-2">
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="text-xl font-bold text-major-font">Message</span>
+                                    </label>
+                                    <textarea class="textarea resize-none lg:h-80 h-52 bg-input-color" placeholder="Write your message"></textarea>
+                                </div>
+                            </div>
+                            <div class="lg:col-span-2">
+                                <button class="btn bg-primary-color w-full text-white text-xl font-bold">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
